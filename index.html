@@ -18,7 +18,7 @@ main{flex:1;display:flex;align-items:center;justify-content:center;padding:40px 
 .logo{display:block;width:min(260px,70vw);height:auto;margin:0 auto 18px}
 h1{margin:0;font-size:clamp(34px,7vw,52px);font-weight:800;letter-spacing:-.5px}
 .what{margin:26px 0 0;font-size:clamp(18px,3.6vw,22px);font-weight:300;line-height:1.6}
-.soon{display:inline-block;margin-top:18px;padding:5px 14px;border:1px solid var(--line);border-radius:999px;
+.soon{display:inline-block;margin-top:28px;padding:5px 14px;border:1px solid var(--line);border-radius:999px;
   font-size:14px;color:var(--muted);background:#fff}
 .contact{margin-top:36px;display:flex;flex-direction:column;gap:12px}
 .contact a{display:flex;align-items:center;justify-content:center;gap:10px;padding:14px 18px;border-radius:12px;
@@ -27,7 +27,7 @@ h1{margin:0;font-size:clamp(34px,7vw,52px);font-weight:800;letter-spacing:-.5px}
 .contact a:hover{filter:brightness(.97)}
 .contact a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 .contact span[dir=ltr]{unicode-bidi:isolate}
-.work{margin-top:40px}
+.work{margin:28px 0 0}
 .work img{display:block;width:100%;height:auto;border-radius:14px;box-shadow:0 2px 14px rgba(27,42,74,.12)}
 footer{text-align:center;padding:18px 16px;font-size:13px;color:var(--muted)}
 </style>
@@ -38,17 +38,17 @@ footer{text-align:center;padding:18px 16px;font-size:13px;color:var(--muted)}
     <img class="logo" src="logo.png" width="509" height="296" alt="ElTal Industries">
     <h1>אלטל תעשיות</h1>
     <p class="what">ייצור מדרגות וגלריות, עבודות מתכת עד 20 מטר<br>ריתוכי ברונזה, אלומיניום ונירוסטה.</p>
-    <span class="soon">האתר המלא בבנייה</span>
+    <figure class="work" style="margin-inline:0">
+      <img src="flyer.jpg" width="993" height="1431"
+           alt="עבודות של אלטל: מדרגות פלדה, מעקות וגלריות שייצרנו — ייצור מדרגות וגלריות, טל ויזל 054-9984099">
+    </figure>
     <div class="contact">
       <a class="primary" href="tel:+972549984099">טל · <span dir="ltr">054-998-4099</span></a>
       <a href="https://wa.me/972549984099">וואטסאפ</a>
       <a href="https://t.me/+972549984099">טלגרם</a>
       <a href="mailto:tal@eltal.co.il"><span dir="ltr">tal@eltal.co.il</span></a>
     </div>
-    <figure class="work" style="margin-inline:0">
-      <img src="flyer.jpg" width="993" height="1431" loading="lazy"
-           alt="עבודות של אלטל: מדרגות פלדה, מעקות וגלריות שייצרנו — ייצור מדרגות וגלריות, טל ויזל 054-9984099">
-    </figure>
+    <span class="soon">האתר המלא בבנייה</span>
   </div>
 </main>
 <footer>© אלטל תעשיות</footer>
