@@ -9,16 +9,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;800&display=swap" rel="stylesheet">
 <style>
-:root{--navy:#1b2a4a;--accent:#2e6dd9;--bg:#f4f6f9;--muted:#5b6b85;--line:#dfe4ec}
+:root{--navy:#1b2a4a;--accent:#d96d12;--bg:#f4f6f9;--muted:#5b6b85;--line:#dfe4ec}
 *{box-sizing:border-box}
 html,body{margin:0;min-height:100%;background:var(--bg);color:var(--navy);font-family:Heebo,system-ui,Arial,sans-serif}
 body{min-height:100vh;display:flex;flex-direction:column}
 main{flex:1;display:flex;align-items:center;justify-content:center;padding:40px 16px}
 .card{width:100%;max-width:560px;text-align:center}
-.mark{display:inline-flex;align-items:center;justify-content:center;width:72px;height:72px;border-radius:18px;
-  background:var(--navy);color:#fff;font-weight:800;font-size:38px;margin-bottom:22px}
+.logo{display:block;width:min(260px,70vw);height:auto;margin:0 auto 18px}
 h1{margin:0;font-size:clamp(34px,7vw,52px);font-weight:800;letter-spacing:-.5px}
-.en{margin:4px 0 0;font-size:15px;letter-spacing:.35em;color:var(--muted);font-weight:400}
 .what{margin:26px 0 0;font-size:clamp(18px,3.6vw,22px);font-weight:300;line-height:1.6}
 .soon{display:inline-block;margin-top:18px;padding:5px 14px;border:1px solid var(--line);border-radius:999px;
   font-size:14px;color:var(--muted);background:#fff}
@@ -37,9 +35,8 @@ footer{text-align:center;padding:18px 16px;font-size:13px;color:var(--muted)}
 <body>
 <main>
   <div class="card">
-    <div class="mark" aria-hidden="true">א</div>
+    <img class="logo" src="logo.png" width="509" height="296" alt="ElTal Industries">
     <h1>אלטל תעשיות</h1>
-    <p class="en">ELTAL INDUSTRIES</p>
     <p class="what">תכנון וייצור מדרגות, מעקות<br>ועבודות מתכת בהתאמה אישית</p>
     <span class="soon">האתר המלא בבנייה</span>
     <div class="contact">
